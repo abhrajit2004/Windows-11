@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.icons{
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 12px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 14px;
+}
+
+.icons img{
+    width: 80px;
+}
+
+.taskbar{
+    width: 100%;
+    background-color: #252d43;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+.startmenu{
+    position: absolute;
+    bottom: -670px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
